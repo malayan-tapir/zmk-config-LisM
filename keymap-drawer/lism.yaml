@@ -31,18 +31,18 @@ layers:
   - ','
   - .
   - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
+  - LEFT COMMAND
+  - LEFT ALT
   - {t: TAB, h: Mouse Layer}
-  - Sft+Gui+4
+  - {t: ▽, type: trans}
   - {t: SPACE, h: Number Layer}
   - {t: ESC, h: Mark Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
-  - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - {t: ▽, type: trans}
+  - {t: DEL, h: Device Layer}
+  - RIGHT META
+  - RIGHT SHIFT
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,11 +87,11 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - {t: ▽, type: trans}
+  - /
   - '7'
   - '8'
   - '9'
-  - '='
+  - +
   - F1
   - F2
   - F7
@@ -107,11 +107,11 @@ layers:
   - ↑
   - →
   - RGUI
-  - /
+  - '0'
   - '1'
   - '2'
   - '3'
-  - +
+  - '='
   - '&mkp MB2'
   - ''
   - ↓
@@ -119,7 +119,7 @@ layers:
   - RALT
   - {t: ▽, type: trans}
   - .
-  - '0'
+  - AT
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
   - {t: ▽, type: trans}
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
@@ -212,6 +212,6 @@ layers:
   - '&studio_unlock'
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - Boot
